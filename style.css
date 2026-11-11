@@ -1,0 +1,188 @@
+body{ background-image: url(img/FONDOJADE.jfif);
+background-size: cover;
+background-position: center;
+background-repeat:no-repeat;
+background-attachment: fixed;}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+h1{color:black ;
+font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;}
+h2{color:#fffe90 ;
+font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;}
+
+h3{color:#fffe90 ;
+font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;}
+
+  h4{color:black ;
+font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;}
+  h5{color:#de0c7b ;
+font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;}
+  h6{color:#5e06e1 ;
+font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;}
+  p{color:black ;
+font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;}
+
+header{background-image: url(img/encabezado.png);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 115px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 100;
+    padding: 10px;
+    padding-left:10% ;
+    padding-right: 10%;
+  display: flex;
+justify-content: space-between;
+align-items: center;}
+
+.logo{height:100px;
+}
+.personajes{display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 100px;
+padding-right: 20%;
+color: #fffe90}
+.personajes a{text-decoration: none;}
+
+
+.descripcion{ margin: 4%;
+padding-top: 3%;
+padding-left: 3px;}
+
+.canciones{margin-left:5%;
+padding-top: 1px;
+align-items: center;
+margin-left: 5%;}
+
+.jade{  position: absolute;
+    left: 50%;
+    top: 22%;
+    width: 550px;
+    padding: 20px;
+    border: 4px solid #fffe90;
+    background: #baebff;
+    background: linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
+    background: -webkit-linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
+    background: -moz-linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
+    border-radius: 20px;}
+    
+    .palabras{position: absolute;
+    left:7%;
+    top: 60%;
+    width:1290px;
+    padding: 20px;
+    border: 4px solid #fffe90;
+    background: #baebff;
+    background: linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
+    background: -webkit-linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
+    background: -moz-linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
+    border-radius: 20px;}
+    .dosparte{margin-top: 10%;}
+
+.texto{margin: 5%;}
+.estado{
+    background-color: #7de0fe;
+ position: absolute;
+    left: 50%;
+    top: 45%;
+    width: 554px;
+    height: 3px;
+    padding: 20px;
+    border: 4px solid #fffe90;
+    border-radius: 15px;
+display: flex;
+gap: 10px;
+align-items: center;}
+.TODOESTADO{
+  margin-left: 10%;
+  display: inline;
+align-items: center;}
+
+.emoji2{
+    width: 25px;
+    height: 25px;
+}
+.emoji1{
+    width: 25px;
+    height: 25px;}
+
+    footer{
+        background-image: url(IMG/pie.png);
+            width: 100%;
+            height: 500px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center; }
+ 
+            footer img{
+            width: 650px;
+          height: 160px;
+        align-items: center;
+      margin-left: 10%;}
+ 
+    .logo2 {padding-left: 20%;
+    padding-top: 5%;}
+ 
+    h6 { color: #fffe90;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+  }
+   
+    .iconos {
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 0;
+    width: 100%;
+    align-items: center;
+    }
+ 
+  .iconos img{
+    width: 35px;
+    height: 30px;
+}
+
+.boton-quiz-flotante {
+    position: fixed;       
+    right: 0;              
+    top: 50%;              
+    transform: translateY(-50%);  
+    z-index: 9999;         
+    display: block;        
+    transition: transform 0.3s ease;
+}
+.boton-quiz-flotante img {
+    width: 150px;        
+    height: auto;
+    display: block;
+}
+.boton-quiz-flotante:hover {
+    transform: translateY(-50%) scale(1.05);
+}
